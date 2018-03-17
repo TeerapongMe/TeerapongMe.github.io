@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to my world</title>
+    <style>
+        button {background-color: aqua}
+        .text {color: brown;
+        font-size: 30px}
+        .my-img {
+            width: 200px;
+            height: 200px;
+            background-image: url(D:\Teerapong\1Week\img\CPAM.jpg)
+        }
+        
+    </style>
+    <script>
+        function onAlert () { alert('Hello World...!!!!');
+        }
+        function onAlertMyText (text) {
+            var mergeText = text + document.getElementById('myText').value;
+            alert(mergeText);
+
+        }
+    
+        }
+    </script>
+</head>
+<body>
+  <h1>Hello World</h1>
+    <button class="my-img my-img1"><h1> Welcome to my World</h1></button><br>
+     <button onclick="onAlert()" ><h2 style="color:blue"> HOME</h2></button>
+
+     <hr/> <br/>
+    Please enter text <input type="text" id="myText"> </input> 
+    <button onclick="onAlertMyText('Hello.########')">OK</button>
+
+    <hr/><br/>
+
+    <img style="width:300px; height: 300px" src = "D:\Teerapong\1Week\img\CPAM.jpg"> 
+</body>
+</html>
